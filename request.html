@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <title>RestMate Requests</title>
+    <style>
+        body {
+            min-width: 357px;
+            overflow-x: hidden;
+        }
+
+        img {
+            margin: 5px;
+            border: 2px solid black;
+            vertical-align: middle;
+            width: 75px;
+            height: 75px;
+        }
+    </style>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="request.js"></script>
+
+    <!-- Cascading Style Sheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="http://localhost/" target="_blank">restMate</a>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="#">Requests</a>
+            </li>
+            <li>
+                <a href="#">Create</a>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#">Comment</a>
+                    </li>
+                    <li>
+                        <a href="#">Up <i class="glyphicon glyphicon-thumbs-up"></i></a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section>
+    <div id="divResult"></div>
+</section>
+</body>
+</html>
